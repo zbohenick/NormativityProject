@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-US">
+
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400&display=swap" rel="stylesheet">
+<head>
+
+</head>
+
+<body>
+<div class="container">
+    <h1>Normativity Data Visualization</h1>
+    <p>Zach Bohenick</p>
+    <h2>My Values</h2>
+    <div class="values-grid">
+    <h3 class="value balance">Balance</h3>
+    <p>Providing time to relax, be mindful, and exercise to balance out work and school commitments.</p>
+    <h3 class="value health">Health</h3>
+    <p>Prioritizing mental and physical health, as well as general well-being.</p>
+    <h3 class="value creativity">Creativity</h3>
+    <p>Creating something original from the soul and/or intuition.</p>
+    <h3 class="value knowledge">Knowledge</h3>
+    <p>Learning new things and exercising the mind.</p>
+    <h3 class="value stimulation">Stimulation</h3>
+    <p>Engaging in fun and play, or anything exciting.</p>
+
+    </div>
+    
+
+
+    <div class="main-values">
+    <div class="item">
+            <h2 class="value balance">Balance</h2>
+            <div class="description">
+                <img src="balancechart.svg" alt="">
+                <p>To record balance in my life, I divided my day into four categories: Work, Leisure, Relax, and Exercise. Every four hours, I recorded the percentage of time my actions fell into any of the four categories. On the chart, the center circle represents 10%. Each outward circle scales by 10%. I also recorded how I felt every four hours. I decided to pair these measurements with my health value. I found that balance affected my productivity, creativity, and well-being.</p>
+            </div>
+    </div>
+    <div class="item">
+            <h2 class="value health">Health</h2>
+            <div class="description">
+                <img src="Brains.svg" style="width: 40%;"alt="">
+                <img src="health-icons.svg" style="width: 60%;"alt="">
+                <p>Referencing the moods I recorded for my balance data, I also tracked moments of anxiety. I organized each feeling into two categories: positive and negative. The green shaded brain represent a positive mood, while the red shaded brain represent a negative mood. I also recorded how well I slept in the morning, and any time I went to the gym to work out.</p>
+ 
+            </div>
+    </div>
+    <div class="item">
+
+
+    <h2 class="value creativity">Creativity</h2>
+    <div class="description">
+        <img src="creative-icons.svg" style="width: 40%;" alt="">
+        <p>Creativity is extremely important to me. Recently, I’ve found that creativity is more valuable than innovation, because creativity also requires considering the feasibility of an idea. I recorded instances of observing something that I felt was creative or original (indicated with he eye icon). I also recorded any time I felt like I was designing something original from the soul or my intuition (indicated with the lightbulb icon).</p>
+
+    </div>
+    </div>
+    <div class="item">
+
+
+            <h2 class="value knowledge">Knowledge</h2>
+            <div class="description">
+                <img src="learn-icons.svg" style="width: 40%;" alt="">
+                <p>I love to learn. I believe where I gather information is important. In order to get a sense of this, I recorded whether I pursued knowledge, and learned something myself, or learned something from someone else.</p>
+            
+            </div>
+            </div>
+
+            <div class="item">
+
+
+                    <h2 class="value stimulation">Stimulation</h2>
+                    <div class="description">
+                        <img src="Stimulation.svg" style="width: 60%;" alt="">
+                        <p>As someone with ADD, stimulation can often become a distraction. While I have been aware of times I become distracted, I’ve wondered how unproductive distractions impact my mood. I have researched the connection of ADD to depression, and felt that this project was a great opportunity to learn more about the correlation in my own life. Productive stimulation flashes in green, and unproductive stimulation flashes in red.</p>
+                    </div>
+                    </div>
+
+
+    </div>
+<h2>Final Animation</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8pMc3FHWlUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Reflection</h2>
+<p>The first thing I noticed was a direct correlation between productive/unproductive stimulation and positive/negative mood respectively. I also found that I am more stressed at night, especially if I’ve spent most of my time with leisure. The third thing I noticed is that I am most creative in the early morning or late at night. Working out and good sleep help my productivity and mood throughout the day. That being said, I realize that I spend very little time working out or resting (being mindful) despite how beneficial both are for my well-being.</p>
+<div class="foot"></div>
+</div>
+
+
+
+</body>
+
+<style>
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #ACADBF;
+}
+body {
+    background-color: #393945;
+}
+.container {
+    max-width: 70%;
+    margin:auto;
+}
+h1,h2 {
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+    width: 30%;
+}
+.value {
+    background-color: #455360;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    align-self:center;
+}
+.balance {
+    color: white;
+}
+.creativity{
+    color: #A245C7;
+}
+.health {
+    color: #C4865F;
+}
+.knowledge {
+    color: #5EBAED;
+}
+.stimulation {
+    color: #69B49F;
+}
+
+img {
+    width: 90%;
+}
+p {
+    line-height: 2;
+}
+.values-grid {
+    display:grid;
+    grid-template-columns: 120px 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.description {
+    display:grid;
+    grid-gap: 25px;
+    padding: 50px;
+    
+    background-color: #32323E;
+    align-items: center;
+    line-height: 2;
+    justify-items: center;
+    border-radius: 7px;
+}
+.description img {
+    width: 100%;
+}
+
+.main-values {
+    display:grid;
+    grid-gap: 50px;
+}
+.foot {
+    height: 70px;
+}
+</style>
+</html>
